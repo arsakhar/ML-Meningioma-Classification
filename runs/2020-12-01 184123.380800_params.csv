@@ -1,2 +1,0 @@
-sequences,in_channel,num_classes,num_epochs,optimizer,learning_rate,dropout,batch_size,l2_reg
-"['t1.nii.gz', 't1c.nii.gz', 'flair.nii.gz', 't2.nii.gz', 'adc.nii.gz']",5,4,45,RMSprop,9.548645883813129e-06,0.17630165574787332,16,0.0001010167399458953

@@ -30,19 +30,20 @@ class TrainingPipeline:
         self.cnnTrainer = CNNTrainer()
 
     def Run(self, params):
-        # Read in dataframe
+        # Read in dataframe and randomize rows
         data_df = pd.read_csv(os.path.join(self.labels_dir, 'data.csv'))
-
         data_df = data_df.sample(frac=1)
-
-        # Remove non-target columns
-        # non_target_cols = list((Counter(['-1', '0', '1', '2', '3']) - Counter(target_cols)).elements())
-        # data_df = data_df[data_df.columns.difference(non_target_cols)]
 
         # Filter (include) observations containing targets
         target_cols = self.targets
         data_df = data_df.loc[(data_df[target_cols] != 0).any(axis=1)]
         data_df = data_df.reset_index(drop=True)
+
+        # Filter (include) only one type of sequence for each subject (will load all during training)
+        max_slices = [data_df[data_df['id'].str.contains(sequence)].shape[0] for sequence in params.sequences]
+        max_slices = np.asarray(max_slices)
+        max_index = np.argmax(max_slices)
+        data_df = data_df[data_df['id'].str.contains(params.sequences[max_index])]
 
         # Set weights for loss function for imbalanced data
         pos_weights = self.get_class_weights(data_df, target_cols)
@@ -54,7 +55,6 @@ class TrainingPipeline:
 
         # 5-fold cross-validation split by group and stratified by class imbalance
         stratified_group_kfold = StratifiedGroupKFold(n_splits=5)
-        # k_fold = GroupKFold(n_splits = 5)
 
         features = data_df.loc[:, 'id'].to_numpy()
 

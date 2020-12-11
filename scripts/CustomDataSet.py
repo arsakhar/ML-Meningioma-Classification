@@ -10,7 +10,7 @@ from torchvision.utils import save_image
 
 class CustomDataSet(Dataset):
     def __init__(self, data_df, sequences, target_cols, augmentation=False):
-        self.img_dir = './Meningioma/MRI/slices'
+        self.img_dir = '/ifs/loni/faculty/jpa/Ashwin/Meningioma/MRI/slices'
         self.data_df = data_df.reset_index(drop=True)
         self.id = 'id'
         self.sequences = sequences
