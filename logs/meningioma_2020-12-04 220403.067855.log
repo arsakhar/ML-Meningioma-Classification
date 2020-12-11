@@ -1,0 +1,1557 @@
+DEBUG:root:
+DEBUG:root:Hyperparameters: 
+DEBUG:root:Sequences: ['t1.nii.gz', 't1c.nii.gz', 'flair.nii.gz', 't2.nii.gz', 'adc.nii.gz']
+DEBUG:root:Input Channels: 5
+DEBUG:root:# Classes: 4
+DEBUG:root:# Epochs: 45
+DEBUG:root:Optimizer: RMSprop
+DEBUG:root:Learning Rate: 9.54864588381312e-06
+DEBUG:root:Dropout: 0.176301655747873
+DEBUG:root:Batch Size: 16
+DEBUG:root:L2 Regularization: 0.000101016739945895
+DEBUG:root:
+DEBUG:root:Loss Function Weights: tensor(12.) tensor(2.) tensor(2.) tensor(7.)
+DEBUG:root:
+DEBUG:root:Fold # 0
+DEBUG:root:
+DEBUG:root:No Train/Test Subject Leakage Found
+DEBUG:root:
+DEBUG:root:Train
+DEBUG:root:Class: 0, Count: 915
+DEBUG:root:Class: 1, Count: 5159
+DEBUG:root:Class: 2, Count: 4370
+DEBUG:root:Class: 3, Count: 1602
+DEBUG:root:
+DEBUG:root:Test
+DEBUG:root:Class: 0, Count: 290
+DEBUG:root:Class: 1, Count: 1300
+DEBUG:root:Class: 2, Count: 1095
+DEBUG:root:Class: 3, Count: 415
+DEBUG:root:
+DEBUG:root:Using Parallel CUDA GPUs
+DEBUG:root:
+DEBUG:root:Epoch 0 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 1.374797205684353
+DEBUG:root:train Accuracy: 27.12
+DEBUG:root:val Loss: 1.328066071284186
+DEBUG:root:val Accuracy: 20.48
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 1 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 1.266839421840303
+DEBUG:root:train Accuracy: 45.2
+DEBUG:root:val Loss: 1.4454573294551103
+DEBUG:root:val Accuracy: 26.77
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 2 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 1.1248917282023436
+DEBUG:root:train Accuracy: 46.03
+DEBUG:root:val Loss: 1.4930726311255975
+DEBUG:root:val Accuracy: 23.87
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 3 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 1.005060757417603
+DEBUG:root:train Accuracy: 56.81
+DEBUG:root:val Loss: 1.4223169088363647
+DEBUG:root:val Accuracy: 32.42
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 4 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.9116691982999424
+DEBUG:root:train Accuracy: 57.98
+DEBUG:root:val Loss: 1.4486141379961033
+DEBUG:root:val Accuracy: 33.23
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 5 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.8431573259244719
+DEBUG:root:train Accuracy: 61.68
+DEBUG:root:val Loss: 1.9713534125962209
+DEBUG:root:val Accuracy: 23.55
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 6 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.7777641848580612
+DEBUG:root:train Accuracy: 62.58
+DEBUG:root:val Loss: 1.398893366154936
+DEBUG:root:val Accuracy: 31.45
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 7 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.7225825237246307
+DEBUG:root:train Accuracy: 64.54
+DEBUG:root:val Loss: 1.416643585433665
+DEBUG:root:val Accuracy: 35.32
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 8 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.6833970146587646
+DEBUG:root:train Accuracy: 70.87
+DEBUG:root:val Loss: 1.3705505573565198
+DEBUG:root:val Accuracy: 32.26
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 9 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.6381404446178224
+DEBUG:root:train Accuracy: 66.06
+DEBUG:root:val Loss: 1.4876199214114356
+DEBUG:root:val Accuracy: 30.0
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 10 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.5860080325785545
+DEBUG:root:train Accuracy: 74.58
+DEBUG:root:val Loss: 1.6045301154102247
+DEBUG:root:val Accuracy: 40.97
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 11 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.5556072532774443
+DEBUG:root:train Accuracy: 74.62
+DEBUG:root:val Loss: 1.6508709052481603
+DEBUG:root:val Accuracy: 37.58
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 12 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.4949387082778125
+DEBUG:root:train Accuracy: 78.08
+DEBUG:root:val Loss: 1.4203661164057624
+DEBUG:root:val Accuracy: 35.32
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 13 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.44611754400994513
+DEBUG:root:train Accuracy: 87.03
+DEBUG:root:val Loss: 1.4626136864583517
+DEBUG:root:val Accuracy: 41.29
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 14 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.429833289211094
+DEBUG:root:train Accuracy: 82.48
+DEBUG:root:val Loss: 1.6447596003099816
+DEBUG:root:val Accuracy: 29.84
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 15 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.3840153592714117
+DEBUG:root:train Accuracy: 88.64
+DEBUG:root:val Loss: 1.907194579692231
+DEBUG:root:val Accuracy: 33.39
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 16 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.34505659382379705
+DEBUG:root:train Accuracy: 89.41
+DEBUG:root:val Loss: 1.864451737133498
+DEBUG:root:val Accuracy: 36.77
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 17 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.33105614503590786
+DEBUG:root:train Accuracy: 90.44
+DEBUG:root:val Loss: 1.9478307615235908
+DEBUG:root:val Accuracy: 26.94
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 18 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.29710998451448534
+DEBUG:root:train Accuracy: 94.26
+DEBUG:root:val Loss: 1.9256119900143023
+DEBUG:root:val Accuracy: 40.16
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 19 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.2654695914264219
+DEBUG:root:train Accuracy: 93.83
+DEBUG:root:val Loss: 2.1364889315415905
+DEBUG:root:val Accuracy: 40.65
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 20 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.2369194950581903
+DEBUG:root:train Accuracy: 94.03
+DEBUG:root:val Loss: 2.2969040422095466
+DEBUG:root:val Accuracy: 37.1
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 21 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.2182796586102065
+DEBUG:root:train Accuracy: 95.76
+DEBUG:root:val Loss: 2.589627083122116
+DEBUG:root:val Accuracy: 34.03
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 22 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.21959674763548898
+DEBUG:root:train Accuracy: 94.7
+DEBUG:root:val Loss: 2.334409051334735
+DEBUG:root:val Accuracy: 31.45
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 23 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.19141013797738676
+DEBUG:root:train Accuracy: 96.29
+DEBUG:root:val Loss: 3.0520631581852116
+DEBUG:root:val Accuracy: 38.39
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 24 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.17568693203903527
+DEBUG:root:train Accuracy: 97.19
+DEBUG:root:val Loss: 2.499684816475996
+DEBUG:root:val Accuracy: 32.42
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 25 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.17685293297160906
+DEBUG:root:train Accuracy: 96.6
+DEBUG:root:val Loss: 2.301558348935904
+DEBUG:root:val Accuracy: 35.65
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 26 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.1576699221378086
+DEBUG:root:train Accuracy: 97.7
+DEBUG:root:val Loss: 2.637824975338179
+DEBUG:root:val Accuracy: 29.84
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 27 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.14276592455715298
+DEBUG:root:train Accuracy: 96.86
+DEBUG:root:val Loss: 2.900990176139419
+DEBUG:root:val Accuracy: 32.58
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 28 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.12191169931841482
+DEBUG:root:train Accuracy: 98.61
+DEBUG:root:val Loss: 2.614521862305317
+DEBUG:root:val Accuracy: 41.61
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 29 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.13240568232097988
+DEBUG:root:train Accuracy: 99.23
+DEBUG:root:val Loss: 3.25812106464327
+DEBUG:root:val Accuracy: 29.52
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 30 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.11951179776166332
+DEBUG:root:train Accuracy: 99.05
+DEBUG:root:val Loss: 3.8125164253810016
+DEBUG:root:val Accuracy: 30.32
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 31 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.10373427069672986
+DEBUG:root:train Accuracy: 99.1
+DEBUG:root:val Loss: 3.3204292839335414
+DEBUG:root:val Accuracy: 36.45
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 32 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.11056435726469217
+DEBUG:root:train Accuracy: 99.22
+DEBUG:root:val Loss: 2.7875165650525044
+DEBUG:root:val Accuracy: 36.94
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 33 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.0969867172717781
+DEBUG:root:train Accuracy: 98.29
+DEBUG:root:val Loss: 2.448898130163704
+DEBUG:root:val Accuracy: 41.77
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 34 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.08898855520274421
+DEBUG:root:train Accuracy: 99.01
+DEBUG:root:val Loss: 2.757083939522812
+DEBUG:root:val Accuracy: 34.52
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 35 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.08722107456891907
+DEBUG:root:train Accuracy: 99.25
+DEBUG:root:val Loss: 2.79287840318434
+DEBUG:root:val Accuracy: 33.23
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 36 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.07128513497263342
+DEBUG:root:train Accuracy: 99.46
+DEBUG:root:val Loss: 3.889141124548371
+DEBUG:root:val Accuracy: 26.94
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 37 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.07407542404141722
+DEBUG:root:train Accuracy: 99.68
+DEBUG:root:val Loss: 2.916736095836482
+DEBUG:root:val Accuracy: 34.35
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 38 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.07413598315655483
+DEBUG:root:train Accuracy: 99.79
+DEBUG:root:val Loss: 3.153058747655338
+DEBUG:root:val Accuracy: 35.48
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 39 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.06849987173355883
+DEBUG:root:train Accuracy: 99.73
+DEBUG:root:val Loss: 2.820576457940426
+DEBUG:root:val Accuracy: 31.77
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 40 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.05656926220426383
+DEBUG:root:train Accuracy: 99.83
+DEBUG:root:val Loss: 2.8837345018214786
+DEBUG:root:val Accuracy: 34.03
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 41 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.06333672554540766
+DEBUG:root:train Accuracy: 99.52
+DEBUG:root:val Loss: 3.0500193957200983
+DEBUG:root:val Accuracy: 31.94
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 42 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.05687711404013147
+DEBUG:root:train Accuracy: 99.89
+DEBUG:root:val Loss: 3.4939336374248424
+DEBUG:root:val Accuracy: 27.58
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 43 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.05030221695021342
+DEBUG:root:train Accuracy: 99.77
+DEBUG:root:val Loss: 3.679463899319934
+DEBUG:root:val Accuracy: 32.74
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 44 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.04582243255224539
+DEBUG:root:train Accuracy: 99.45
+DEBUG:root:val Loss: 2.534557953630526
+DEBUG:root:val Accuracy: 34.84
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:    phase  epoch      loss  accuracy fold
+0   train      0  1.374797     27.12    0
+1     val      0  1.328066     20.48    0
+2   train      1  1.266839     45.20    0
+3     val      1  1.445457     26.77    0
+4   train      2  1.124892     46.03    0
+5     val      2  1.493073     23.87    0
+6   train      3  1.005061     56.81    0
+7     val      3  1.422317     32.42    0
+8   train      4  0.911669     57.98    0
+9     val      4  1.448614     33.23    0
+10  train      5  0.843157     61.68    0
+11    val      5  1.971353     23.55    0
+12  train      6  0.777764     62.58    0
+13    val      6  1.398893     31.45    0
+14  train      7  0.722583     64.54    0
+15    val      7  1.416644     35.32    0
+16  train      8  0.683397     70.87    0
+17    val      8  1.370551     32.26    0
+18  train      9  0.638140     66.06    0
+19    val      9  1.487620     30.00    0
+20  train     10  0.586008     74.58    0
+21    val     10  1.604530     40.97    0
+22  train     11  0.555607     74.62    0
+23    val     11  1.650871     37.58    0
+24  train     12  0.494939     78.08    0
+25    val     12  1.420366     35.32    0
+26  train     13  0.446118     87.03    0
+27    val     13  1.462614     41.29    0
+28  train     14  0.429833     82.48    0
+29    val     14  1.644760     29.84    0
+30  train     15  0.384015     88.64    0
+31    val     15  1.907195     33.39    0
+32  train     16  0.345057     89.41    0
+33    val     16  1.864452     36.77    0
+34  train     17  0.331056     90.44    0
+35    val     17  1.947831     26.94    0
+36  train     18  0.297110     94.26    0
+37    val     18  1.925612     40.16    0
+38  train     19  0.265470     93.83    0
+39    val     19  2.136489     40.65    0
+40  train     20  0.236919     94.03    0
+41    val     20  2.296904     37.10    0
+42  train     21  0.218280     95.76    0
+43    val     21  2.589627     34.03    0
+44  train     22  0.219597     94.70    0
+45    val     22  2.334409     31.45    0
+46  train     23  0.191410     96.29    0
+47    val     23  3.052063     38.39    0
+48  train     24  0.175687     97.19    0
+49    val     24  2.499685     32.42    0
+50  train     25  0.176853     96.60    0
+51    val     25  2.301558     35.65    0
+52  train     26  0.157670     97.70    0
+53    val     26  2.637825     29.84    0
+54  train     27  0.142766     96.86    0
+55    val     27  2.900990     32.58    0
+56  train     28  0.121912     98.61    0
+57    val     28  2.614522     41.61    0
+58  train     29  0.132406     99.23    0
+59    val     29  3.258121     29.52    0
+60  train     30  0.119512     99.05    0
+61    val     30  3.812516     30.32    0
+62  train     31  0.103734     99.10    0
+63    val     31  3.320429     36.45    0
+64  train     32  0.110564     99.22    0
+65    val     32  2.787517     36.94    0
+66  train     33  0.096987     98.29    0
+67    val     33  2.448898     41.77    0
+68  train     34  0.088989     99.01    0
+69    val     34  2.757084     34.52    0
+70  train     35  0.087221     99.25    0
+71    val     35  2.792878     33.23    0
+72  train     36  0.071285     99.46    0
+73    val     36  3.889141     26.94    0
+74  train     37  0.074075     99.68    0
+75    val     37  2.916736     34.35    0
+76  train     38  0.074136     99.79    0
+77    val     38  3.153059     35.48    0
+78  train     39  0.068500     99.73    0
+79    val     39  2.820576     31.77    0
+80  train     40  0.056569     99.83    0
+81    val     40  2.883735     34.03    0
+82  train     41  0.063337     99.52    0
+83    val     41  3.050019     31.94    0
+84  train     42  0.056877     99.89    0
+85    val     42  3.493934     27.58    0
+86  train     43  0.050302     99.77    0
+87    val     43  3.679464     32.74    0
+88  train     44  0.045822     99.45    0
+89    val     44  2.534558     34.84    0
+DEBUG:root:
+DEBUG:root:         metric  precision    recall  f1-score      support fold
+0             0   0.354430  0.965517  0.518519   290.000000    0
+1             1   0.517588  0.396154  0.448802  1300.000000    0
+2             2   0.276596  0.237443  0.255528  1095.000000    0
+3             3   0.066667  0.060241  0.063291   415.000000    0
+4      accuracy   0.348387  0.348387  0.348387     0.348387    0
+5     macro avg   0.303820  0.414839  0.321535  3100.000000    0
+6  weighted avg   0.356835  0.348387  0.335446  3100.000000    0
+DEBUG:root:
+DEBUG:root:  act_grade    0    1    2    3 fold
+0         0  280   10    0    0    0
+1         1  360  515  365   60    0
+2         2  130  415  260  290    0
+3         3   20   55  315   25    0
+DEBUG:root:
+DEBUG:root:
+DEBUG:root:Fold # 1
+DEBUG:root:
+DEBUG:root:No Train/Test Subject Leakage Found
+DEBUG:root:
+DEBUG:root:Train
+DEBUG:root:Class: 0, Count: 950
+DEBUG:root:Class: 1, Count: 5154
+DEBUG:root:Class: 2, Count: 4370
+DEBUG:root:Class: 3, Count: 1617
+DEBUG:root:
+DEBUG:root:Test
+DEBUG:root:Class: 0, Count: 255
+DEBUG:root:Class: 1, Count: 1305
+DEBUG:root:Class: 2, Count: 1095
+DEBUG:root:Class: 3, Count: 400
+DEBUG:root:
+DEBUG:root:Using Parallel CUDA GPUs
+DEBUG:root:
+DEBUG:root:Epoch 0 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 1.3275274857484474
+DEBUG:root:train Accuracy: 15.32
+DEBUG:root:val Loss: 1.958843156305283
+DEBUG:root:val Accuracy: 0.82
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 1 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 1.2404177028823782
+DEBUG:root:train Accuracy: 53.96
+DEBUG:root:val Loss: 2.089520930619764
+DEBUG:root:val Accuracy: 26.51
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 2 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 1.1106221040405293
+DEBUG:root:train Accuracy: 58.16
+DEBUG:root:val Loss: 2.3581108092013454
+DEBUG:root:val Accuracy: 29.13
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 3 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.9903054388348388
+DEBUG:root:train Accuracy: 50.21
+DEBUG:root:val Loss: 2.7738666496975886
+DEBUG:root:val Accuracy: 20.79
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 4 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.9011518524752723
+DEBUG:root:train Accuracy: 59.34
+DEBUG:root:val Loss: 2.6895383003494504
+DEBUG:root:val Accuracy: 29.62
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 5 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.8488984781282919
+DEBUG:root:train Accuracy: 56.05
+DEBUG:root:val Loss: 2.9840584300575457
+DEBUG:root:val Accuracy: 28.97
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 6 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.8143823181116392
+DEBUG:root:train Accuracy: 66.25
+DEBUG:root:val Loss: 2.959056794643402
+DEBUG:root:val Accuracy: 36.5
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 7 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.7558651246800625
+DEBUG:root:train Accuracy: 58.75
+DEBUG:root:val Loss: 3.3033245106018025
+DEBUG:root:val Accuracy: 28.97
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 8 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.7155419461547382
+DEBUG:root:train Accuracy: 71.42
+DEBUG:root:val Loss: 2.5455760091387165
+DEBUG:root:val Accuracy: 32.41
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 9 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.6817812202547593
+DEBUG:root:train Accuracy: 67.55
+DEBUG:root:val Loss: 3.7128750756773026
+DEBUG:root:val Accuracy: 31.1
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 10 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.6420167559787394
+DEBUG:root:train Accuracy: 75.95
+DEBUG:root:val Loss: 4.09162806528401
+DEBUG:root:val Accuracy: 23.4
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 11 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.6049667257204573
+DEBUG:root:train Accuracy: 75.59
+DEBUG:root:val Loss: 3.6313427243557275
+DEBUG:root:val Accuracy: 29.79
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 12 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.5529589703079885
+DEBUG:root:train Accuracy: 78.1
+DEBUG:root:val Loss: 3.1567111739313414
+DEBUG:root:val Accuracy: 21.77
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 13 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.5198535918401032
+DEBUG:root:train Accuracy: 80.37
+DEBUG:root:val Loss: 3.460711768784448
+DEBUG:root:val Accuracy: 28.15
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 14 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.4841314305566133
+DEBUG:root:train Accuracy: 76.35
+DEBUG:root:val Loss: 3.8007755391884848
+DEBUG:root:val Accuracy: 25.7
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 15 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.4428725938199374
+DEBUG:root:train Accuracy: 83.5
+DEBUG:root:val Loss: 4.075571643120331
+DEBUG:root:val Accuracy: 26.02
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 16 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.4235952042890762
+DEBUG:root:train Accuracy: 84.57
+DEBUG:root:val Loss: 2.9098097217020564
+DEBUG:root:val Accuracy: 30.44
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 17 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.38358333201280664
+DEBUG:root:train Accuracy: 85.93
+DEBUG:root:val Loss: 4.815447047118742
+DEBUG:root:val Accuracy: 26.68
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 18 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.35848204294840497
+DEBUG:root:train Accuracy: 92.26
+DEBUG:root:val Loss: 3.917699345743469
+DEBUG:root:val Accuracy: 31.59
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 19 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.3357459653572983
+DEBUG:root:train Accuracy: 90.63
+DEBUG:root:val Loss: 3.061222157241162
+DEBUG:root:val Accuracy: 30.44
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 20 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.30649348423771916
+DEBUG:root:train Accuracy: 92.79
+DEBUG:root:val Loss: 3.599070536528582
+DEBUG:root:val Accuracy: 27.0
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 21 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.29079124171819004
+DEBUG:root:train Accuracy: 93.14
+DEBUG:root:val Loss: 3.611287342316193
+DEBUG:root:val Accuracy: 30.28
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 22 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.26186300259300327
+DEBUG:root:train Accuracy: 95.51
+DEBUG:root:val Loss: 3.725862998612888
+DEBUG:root:val Accuracy: 31.42
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 23 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.24484453507004275
+DEBUG:root:train Accuracy: 93.57
+DEBUG:root:val Loss: 4.923543093092155
+DEBUG:root:val Accuracy: 28.64
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 24 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.22782970730599666
+DEBUG:root:train Accuracy: 94.87
+DEBUG:root:val Loss: 4.126248943868108
+DEBUG:root:val Accuracy: 27.66
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 25 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.19875488577474637
+DEBUG:root:train Accuracy: 92.8
+DEBUG:root:val Loss: 3.8460378135062014
+DEBUG:root:val Accuracy: 24.71
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 26 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.18967300398452652
+DEBUG:root:train Accuracy: 98.14
+DEBUG:root:val Loss: 4.035436815616348
+DEBUG:root:val Accuracy: 32.08
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 27 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.18345324032343727
+DEBUG:root:train Accuracy: 95.39
+DEBUG:root:val Loss: 4.512455513964149
+DEBUG:root:val Accuracy: 28.81
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 28 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.1492819750137016
+DEBUG:root:train Accuracy: 98.44
+DEBUG:root:val Loss: 3.7580683799314247
+DEBUG:root:val Accuracy: 30.11
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 29 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.1496780830566037
+DEBUG:root:train Accuracy: 84.79
+DEBUG:root:val Loss: 4.199673061595537
+DEBUG:root:val Accuracy: 26.19
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 30 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.15361878789884958
+DEBUG:root:train Accuracy: 98.68
+DEBUG:root:val Loss: 4.536791575516705
+DEBUG:root:val Accuracy: 33.39
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 31 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.1371762634633188
+DEBUG:root:train Accuracy: 98.04
+DEBUG:root:val Loss: 4.278789651331477
+DEBUG:root:val Accuracy: 33.22
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 32 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.125822429527977
+DEBUG:root:train Accuracy: 99.04
+DEBUG:root:val Loss: 4.445646486357244
+DEBUG:root:val Accuracy: 28.81
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 33 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.1164788821808841
+DEBUG:root:train Accuracy: 98.73
+DEBUG:root:val Loss: 4.001671345446122
+DEBUG:root:val Accuracy: 33.22
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 34 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.11030294187182176
+DEBUG:root:train Accuracy: 99.38
+DEBUG:root:val Loss: 3.962605738515005
+DEBUG:root:val Accuracy: 28.64
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 35 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.10447386594516318
+DEBUG:root:train Accuracy: 99.55
+DEBUG:root:val Loss: 4.445275020224885
+DEBUG:root:val Accuracy: 28.81
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 36 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.09765265787712658
+DEBUG:root:train Accuracy: 99.13
+DEBUG:root:val Loss: 4.350433187959082
+DEBUG:root:val Accuracy: 30.28
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 37 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.09243746313220876
+DEBUG:root:train Accuracy: 99.48
+DEBUG:root:val Loss: 4.382366418838501
+DEBUG:root:val Accuracy: 28.97
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 38 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.08470378401914054
+DEBUG:root:train Accuracy: 98.62
+DEBUG:root:val Loss: 4.845463526810651
+DEBUG:root:val Accuracy: 35.52
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 39 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.08871885458199633
+DEBUG:root:train Accuracy: 99.72
+DEBUG:root:val Loss: 4.5758542989561075
+DEBUG:root:val Accuracy: 27.99
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 40 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.07704307537472921
+DEBUG:root:train Accuracy: 99.27
+DEBUG:root:val Loss: 4.472101996082286
+DEBUG:root:val Accuracy: 28.31
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 41 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.06848437085694747
+DEBUG:root:train Accuracy: 99.72
+DEBUG:root:val Loss: 5.187367893014279
+DEBUG:root:val Accuracy: 31.1
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 42 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.0635067222188116
+DEBUG:root:train Accuracy: 98.02
+DEBUG:root:val Loss: 5.722551971205866
+DEBUG:root:val Accuracy: 25.37
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 43 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.0632472579203769
+DEBUG:root:train Accuracy: 99.83
+DEBUG:root:val Loss: 5.971149181820335
+DEBUG:root:val Accuracy: 31.91
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 44 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.06297367667747297
+DEBUG:root:train Accuracy: 99.65
+DEBUG:root:val Loss: 5.72133994601784
+DEBUG:root:val Accuracy: 31.42
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:    phase  epoch      loss  accuracy fold
+0   train      0  1.327527     15.32    1
+1     val      0  1.958843      0.82    1
+2   train      1  1.240418     53.96    1
+3     val      1  2.089521     26.51    1
+4   train      2  1.110622     58.16    1
+5     val      2  2.358111     29.13    1
+6   train      3  0.990305     50.21    1
+7     val      3  2.773867     20.79    1
+8   train      4  0.901152     59.34    1
+9     val      4  2.689538     29.62    1
+10  train      5  0.848898     56.05    1
+11    val      5  2.984058     28.97    1
+12  train      6  0.814382     66.25    1
+13    val      6  2.959057     36.50    1
+14  train      7  0.755865     58.75    1
+15    val      7  3.303325     28.97    1
+16  train      8  0.715542     71.42    1
+17    val      8  2.545576     32.41    1
+18  train      9  0.681781     67.55    1
+19    val      9  3.712875     31.10    1
+20  train     10  0.642017     75.95    1
+21    val     10  4.091628     23.40    1
+22  train     11  0.604967     75.59    1
+23    val     11  3.631343     29.79    1
+24  train     12  0.552959     78.10    1
+25    val     12  3.156711     21.77    1
+26  train     13  0.519854     80.37    1
+27    val     13  3.460712     28.15    1
+28  train     14  0.484131     76.35    1
+29    val     14  3.800776     25.70    1
+30  train     15  0.442873     83.50    1
+31    val     15  4.075572     26.02    1
+32  train     16  0.423595     84.57    1
+33    val     16  2.909810     30.44    1
+34  train     17  0.383583     85.93    1
+35    val     17  4.815447     26.68    1
+36  train     18  0.358482     92.26    1
+37    val     18  3.917699     31.59    1
+38  train     19  0.335746     90.63    1
+39    val     19  3.061222     30.44    1
+40  train     20  0.306493     92.79    1
+41    val     20  3.599071     27.00    1
+42  train     21  0.290791     93.14    1
+43    val     21  3.611287     30.28    1
+44  train     22  0.261863     95.51    1
+45    val     22  3.725863     31.42    1
+46  train     23  0.244845     93.57    1
+47    val     23  4.923543     28.64    1
+48  train     24  0.227830     94.87    1
+49    val     24  4.126249     27.66    1
+50  train     25  0.198755     92.80    1
+51    val     25  3.846038     24.71    1
+52  train     26  0.189673     98.14    1
+53    val     26  4.035437     32.08    1
+54  train     27  0.183453     95.39    1
+55    val     27  4.512456     28.81    1
+56  train     28  0.149282     98.44    1
+57    val     28  3.758068     30.11    1
+58  train     29  0.149678     84.79    1
+59    val     29  4.199673     26.19    1
+60  train     30  0.153619     98.68    1
+61    val     30  4.536792     33.39    1
+62  train     31  0.137176     98.04    1
+63    val     31  4.278790     33.22    1
+64  train     32  0.125822     99.04    1
+65    val     32  4.445646     28.81    1
+66  train     33  0.116479     98.73    1
+67    val     33  4.001671     33.22    1
+68  train     34  0.110303     99.38    1
+69    val     34  3.962606     28.64    1
+70  train     35  0.104474     99.55    1
+71    val     35  4.445275     28.81    1
+72  train     36  0.097653     99.13    1
+73    val     36  4.350433     30.28    1
+74  train     37  0.092437     99.48    1
+75    val     37  4.382366     28.97    1
+76  train     38  0.084704     98.62    1
+77    val     38  4.845464     35.52    1
+78  train     39  0.088719     99.72    1
+79    val     39  4.575854     27.99    1
+80  train     40  0.077043     99.27    1
+81    val     40  4.472102     28.31    1
+82  train     41  0.068484     99.72    1
+83    val     41  5.187368     31.10    1
+84  train     42  0.063507     98.02    1
+85    val     42  5.722552     25.37    1
+86  train     43  0.063247     99.83    1
+87    val     43  5.971149     31.91    1
+88  train     44  0.062974     99.65    1
+89    val     44  5.721340     31.42    1
+DEBUG:root:
+DEBUG:root:         metric  precision    recall  f1-score      support fold
+0             0   0.000000  0.000000  0.000000   255.000000    1
+1             1   0.477912  0.455939  0.466667  1305.000000    1
+2             2   0.300000  0.315068  0.307350  1095.000000    1
+3             3   0.108108  0.050000  0.068376   400.000000    1
+4      accuracy   0.314239  0.314239  0.314239     0.314239    1
+5     macro avg   0.221505  0.205252  0.210598  3055.000000    1
+6  weighted avg   0.325832  0.314239  0.318461  3055.000000    1
+DEBUG:root:
+DEBUG:root:  act_grade    0    1    2    3 fold
+0         0    0   65  180   10    1
+1         1  415  595  275   20    1
+2         2   60  555  345  135    1
+3         3    0   30  350   20    1
+DEBUG:root:
+DEBUG:root:
+DEBUG:root:Fold # 2
+DEBUG:root:
+DEBUG:root:No Train/Test Subject Leakage Found
+DEBUG:root:
+DEBUG:root:Train
+DEBUG:root:Class: 0, Count: 985
+DEBUG:root:Class: 1, Count: 5135
+DEBUG:root:Class: 2, Count: 4375
+DEBUG:root:Class: 3, Count: 1627
+DEBUG:root:
+DEBUG:root:Test
+DEBUG:root:Class: 0, Count: 220
+DEBUG:root:Class: 1, Count: 1324
+DEBUG:root:Class: 2, Count: 1090
+DEBUG:root:Class: 3, Count: 390
+DEBUG:root:
+DEBUG:root:Using Parallel CUDA GPUs
+DEBUG:root:
+DEBUG:root:Epoch 0 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 1.2886975001848466
+DEBUG:root:train Accuracy: 20.95
+DEBUG:root:val Loss: 1.7271474202473958
+DEBUG:root:val Accuracy: 10.58
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 1 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 1.1415179451254238
+DEBUG:root:train Accuracy: 49.6
+DEBUG:root:val Loss: 2.2310442880347923
+DEBUG:root:val Accuracy: 31.25
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 2 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.9956262741129757
+DEBUG:root:train Accuracy: 50.87
+DEBUG:root:val Loss: 2.6670438669345997
+DEBUG:root:val Accuracy: 28.6
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 3 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.909001822168091
+DEBUG:root:train Accuracy: 58.84
+DEBUG:root:val Loss: 2.30932782282905
+DEBUG:root:val Accuracy: 40.01
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 4 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.8395843293154145
+DEBUG:root:train Accuracy: 58.03
+DEBUG:root:val Loss: 2.3985945749535134
+DEBUG:root:val Accuracy: 39.85
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 5 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.787737085786218
+DEBUG:root:train Accuracy: 52.72
+DEBUG:root:val Loss: 2.427076288631984
+DEBUG:root:val Accuracy: 32.74
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 6 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.7379965532502273
+DEBUG:root:train Accuracy: 65.41
+DEBUG:root:val Loss: 2.377762281390094
+DEBUG:root:val Accuracy: 39.52
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 7 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.6867345314187865
+DEBUG:root:train Accuracy: 64.65
+DEBUG:root:val Loss: 2.3775496170634316
+DEBUG:root:val Accuracy: 34.06
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 8 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.6445987905156958
+DEBUG:root:train Accuracy: 73.2
+DEBUG:root:val Loss: 3.2375576448818992
+DEBUG:root:val Accuracy: 38.03
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 9 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.6089318452850181
+DEBUG:root:train Accuracy: 62.13
+DEBUG:root:val Loss: 2.6802867187394037
+DEBUG:root:val Accuracy: 30.75
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 10 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.5916258563781477
+DEBUG:root:train Accuracy: 78.15
+DEBUG:root:val Loss: 2.5928585800544295
+DEBUG:root:val Accuracy: 36.54
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 11 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.5365546658084701
+DEBUG:root:train Accuracy: 69.75
+DEBUG:root:val Loss: 2.6149631612515325
+DEBUG:root:val Accuracy: 27.41
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 12 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.5135249510053594
+DEBUG:root:train Accuracy: 77.23
+DEBUG:root:val Loss: 3.5218098567276406
+DEBUG:root:val Accuracy: 30.72
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 13 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.480380877931074
+DEBUG:root:train Accuracy: 80.68
+DEBUG:root:val Loss: 3.549764833753071
+DEBUG:root:val Accuracy: 28.27
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 14 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.4546153842813107
+DEBUG:root:train Accuracy: 80.9
+DEBUG:root:val Loss: 2.8504310530960244
+DEBUG:root:val Accuracy: 30.06
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 15 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.40724961508783
+DEBUG:root:train Accuracy: 85.88
+DEBUG:root:val Loss: 3.302010292729373
+DEBUG:root:val Accuracy: 29.93
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 16 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.39407671132864613
+DEBUG:root:train Accuracy: 80.09
+DEBUG:root:val Loss: 3.320757063608321
+DEBUG:root:val Accuracy: 26.46
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 17 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.35678453535568905
+DEBUG:root:train Accuracy: 61.17
+DEBUG:root:val Loss: 4.199472896636478
+DEBUG:root:val Accuracy: 26.62
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 18 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.3328278267161434
+DEBUG:root:train Accuracy: 89.15
+DEBUG:root:val Loss: 3.0779170598933305
+DEBUG:root:val Accuracy: 22.32
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 19 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.30402649518367797
+DEBUG:root:train Accuracy: 80.52
+DEBUG:root:val Loss: 3.0216607883493736
+DEBUG:root:val Accuracy: 27.78
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 20 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.29833991874235444
+DEBUG:root:train Accuracy: 84.65
+DEBUG:root:val Loss: 3.47994815294074
+DEBUG:root:val Accuracy: 25.79
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 21 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.2615980150418892
+DEBUG:root:train Accuracy: 95.54
+DEBUG:root:val Loss: 4.719037776901608
+DEBUG:root:val Accuracy: 34.06
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 22 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.23262677622079297
+DEBUG:root:train Accuracy: 95.36
+DEBUG:root:val Loss: 3.9726529487226374
+DEBUG:root:val Accuracy: 25.79
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 23 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.22014118996903417
+DEBUG:root:train Accuracy: 95.68
+DEBUG:root:val Loss: 3.893860548261612
+DEBUG:root:val Accuracy: 34.56
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 24 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.2001121477653963
+DEBUG:root:train Accuracy: 94.54
+DEBUG:root:val Loss: 3.9706224196802373
+DEBUG:root:val Accuracy: 30.22
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 25 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.1835936769083791
+DEBUG:root:train Accuracy: 88.85
+DEBUG:root:val Loss: 4.614467840188395
+DEBUG:root:val Accuracy: 35.71
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 26 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.16551883685793287
+DEBUG:root:train Accuracy: 96.8
+DEBUG:root:val Loss: 3.4012403727839233
+DEBUG:root:val Accuracy: 29.1
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 27 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.15967481577950762
+DEBUG:root:train Accuracy: 95.98
+DEBUG:root:val Loss: 3.5856541786244307
+DEBUG:root:val Accuracy: 26.12
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 28 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.14505835533502087
+DEBUG:root:train Accuracy: 97.06
+DEBUG:root:val Loss: 4.0743122857714456
+DEBUG:root:val Accuracy: 32.9
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 29 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.1271152615468546
+DEBUG:root:train Accuracy: 97.83
+DEBUG:root:val Loss: 4.270182887713115
+DEBUG:root:val Accuracy: 27.25
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 30 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.12542133749398773
+DEBUG:root:train Accuracy: 98.56
+DEBUG:root:val Loss: 4.015491231408699
+DEBUG:root:val Accuracy: 26.26
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 31 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.11574584410291185
+DEBUG:root:train Accuracy: 97.81
+DEBUG:root:val Loss: 5.244146569696053
+DEBUG:root:val Accuracy: 25.13
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 32 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.10866679575866811
+DEBUG:root:train Accuracy: 98.42
+DEBUG:root:val Loss: 4.437424691265853
+DEBUG:root:val Accuracy: 34.39
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 33 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.10862875617976057
+DEBUG:root:train Accuracy: 97.86
+DEBUG:root:val Loss: 4.5117810535683205
+DEBUG:root:val Accuracy: 23.48
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 34 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.09908955099213484
+DEBUG:root:train Accuracy: 99.57
+DEBUG:root:val Loss: 3.865907874056902
+DEBUG:root:val Accuracy: 25.3
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 35 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.09369402521721144
+DEBUG:root:train Accuracy: 99.57
+DEBUG:root:val Loss: 3.590012510617574
+DEBUG:root:val Accuracy: 25.13
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 36 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.08525738972183906
+DEBUG:root:train Accuracy: 88.18
+DEBUG:root:val Loss: 5.561872843712095
+DEBUG:root:val Accuracy: 30.09
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 37 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.08324314069032354
+DEBUG:root:train Accuracy: 99.18
+DEBUG:root:val Loss: 3.379461955771875
+DEBUG:root:val Accuracy: 29.93
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 38 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.07822297719162262
+DEBUG:root:train Accuracy: 99.42
+DEBUG:root:val Loss: 5.191779453918417
+DEBUG:root:val Accuracy: 22.49
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 39 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.07987045238653351
+DEBUG:root:train Accuracy: 99.37
+DEBUG:root:val Loss: 3.748665615364357
+DEBUG:root:val Accuracy: 26.29
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 40 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.06844526486524127
+DEBUG:root:train Accuracy: 99.46
+DEBUG:root:val Loss: 4.368122677323679
+DEBUG:root:val Accuracy: 26.29
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 41 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.0655910353420338
+DEBUG:root:train Accuracy: 99.87
+DEBUG:root:val Loss: 5.081815701943857
+DEBUG:root:val Accuracy: 29.6
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 42 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.06114919317009586
+DEBUG:root:train Accuracy: 99.84
+DEBUG:root:val Loss: 4.8693030372498525
+DEBUG:root:val Accuracy: 23.15
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 43 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.054314684968654894
+DEBUG:root:train Accuracy: 99.83
+DEBUG:root:val Loss: 5.886879934835687
+DEBUG:root:val Accuracy: 31.75
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 44 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.05067167421609365
+DEBUG:root:train Accuracy: 99.92
+DEBUG:root:val Loss: 4.686319235140685
+DEBUG:root:val Accuracy: 34.19
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:    phase  epoch      loss  accuracy fold
+0   train      0  1.288698     20.95    2
+1     val      0  1.727147     10.58    2
+2   train      1  1.141518     49.60    2
+3     val      1  2.231044     31.25    2
+4   train      2  0.995626     50.87    2
+5     val      2  2.667044     28.60    2
+6   train      3  0.909002     58.84    2
+7     val      3  2.309328     40.01    2
+8   train      4  0.839584     58.03    2
+9     val      4  2.398595     39.85    2
+10  train      5  0.787737     52.72    2
+11    val      5  2.427076     32.74    2
+12  train      6  0.737997     65.41    2
+13    val      6  2.377762     39.52    2
+14  train      7  0.686735     64.65    2
+15    val      7  2.377550     34.06    2
+16  train      8  0.644599     73.20    2
+17    val      8  3.237558     38.03    2
+18  train      9  0.608932     62.13    2
+19    val      9  2.680287     30.75    2
+20  train     10  0.591626     78.15    2
+21    val     10  2.592859     36.54    2
+22  train     11  0.536555     69.75    2
+23    val     11  2.614963     27.41    2
+24  train     12  0.513525     77.23    2
+25    val     12  3.521810     30.72    2
+26  train     13  0.480381     80.68    2
+27    val     13  3.549765     28.27    2
+28  train     14  0.454615     80.90    2
+29    val     14  2.850431     30.06    2
+30  train     15  0.407250     85.88    2
+31    val     15  3.302010     29.93    2
+32  train     16  0.394077     80.09    2
+33    val     16  3.320757     26.46    2
+34  train     17  0.356785     61.17    2
+35    val     17  4.199473     26.62    2
+36  train     18  0.332828     89.15    2
+37    val     18  3.077917     22.32    2
+38  train     19  0.304026     80.52    2
+39    val     19  3.021661     27.78    2
+40  train     20  0.298340     84.65    2
+41    val     20  3.479948     25.79    2
+42  train     21  0.261598     95.54    2
+43    val     21  4.719038     34.06    2
+44  train     22  0.232627     95.36    2
+45    val     22  3.972653     25.79    2
+46  train     23  0.220141     95.68    2
+47    val     23  3.893861     34.56    2
+48  train     24  0.200112     94.54    2
+49    val     24  3.970622     30.22    2
+50  train     25  0.183594     88.85    2
+51    val     25  4.614468     35.71    2
+52  train     26  0.165519     96.80    2
+53    val     26  3.401240     29.10    2
+54  train     27  0.159675     95.98    2
+55    val     27  3.585654     26.12    2
+56  train     28  0.145058     97.06    2
+57    val     28  4.074312     32.90    2
+58  train     29  0.127115     97.83    2
+59    val     29  4.270183     27.25    2
+60  train     30  0.125421     98.56    2
+61    val     30  4.015491     26.26    2
+62  train     31  0.115746     97.81    2
+63    val     31  5.244147     25.13    2
+64  train     32  0.108667     98.42    2
+65    val     32  4.437425     34.39    2
+66  train     33  0.108629     97.86    2
+67    val     33  4.511781     23.48    2
+68  train     34  0.099090     99.57    2
+69    val     34  3.865908     25.30    2
+70  train     35  0.093694     99.57    2
+71    val     35  3.590013     25.13    2
+72  train     36  0.085257     88.18    2
+73    val     36  5.561873     30.09    2
+74  train     37  0.083243     99.18    2
+75    val     37  3.379462     29.93    2
+76  train     38  0.078223     99.42    2
+77    val     38  5.191779     22.49    2
+78  train     39  0.079870     99.37    2
+79    val     39  3.748666     26.29    2
+80  train     40  0.068445     99.46    2
+81    val     40  4.368123     26.29    2
+82  train     41  0.065591     99.87    2
+83    val     41  5.081816     29.60    2
+84  train     42  0.061149     99.84    2
+85    val     42  4.869303     23.15    2
+86  train     43  0.054315     99.83    2
+87    val     43  5.886880     31.75    2
+88  train     44  0.050672     99.92    2
+89    val     44  4.686319     34.19    2
+DEBUG:root:
+DEBUG:root:         metric  precision    recall  f1-score      support fold
+0             0   0.000000  0.000000  0.000000   220.000000    2
+1             1   0.425145  0.388218  0.405843  1324.000000    2
+2             2   0.439394  0.399083  0.418269  1090.000000    2
+3             3   0.197674  0.217949  0.207317   390.000000    2
+4      accuracy   0.341931  0.341931  0.341931     0.341931    2
+5     macro avg   0.265553  0.251312  0.257857  3024.000000    2
+6  weighted avg   0.370015  0.341931  0.355193  3024.000000    2
+DEBUG:root:
+DEBUG:root:  act_grade    0    1    2    3 fold
+0         0    0  215    5    0    2
+1         1  240  514  460  110    2
+2         2  100  320  435  235    2
+3         3   55  160   90   85    2
+DEBUG:root:
+DEBUG:root:
+DEBUG:root:Fold # 3
+DEBUG:root:
+DEBUG:root:No Train/Test Subject Leakage Found
+DEBUG:root:
+DEBUG:root:Train
+DEBUG:root:Class: 0, Count: 1020
+DEBUG:root:Class: 1, Count: 5194
+DEBUG:root:Class: 2, Count: 4365
+DEBUG:root:Class: 3, Count: 1652
+DEBUG:root:
+DEBUG:root:Test
+DEBUG:root:Class: 0, Count: 185
+DEBUG:root:Class: 1, Count: 1265
+DEBUG:root:Class: 2, Count: 1100
+DEBUG:root:Class: 3, Count: 365
+DEBUG:root:
+DEBUG:root:Using Parallel CUDA GPUs
+DEBUG:root:
+DEBUG:root:Epoch 0 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 1.343617512821372
+DEBUG:root:train Accuracy: 42.51
+DEBUG:root:val Loss: 1.6649653602167558
+DEBUG:root:val Accuracy: 29.85
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 1 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 1.2524432594480077
+DEBUG:root:train Accuracy: 38.94
+DEBUG:root:val Loss: 1.8177033910334437
+DEBUG:root:val Accuracy: 10.12
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 2 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 1.096095139294668
+DEBUG:root:train Accuracy: 51.62
+DEBUG:root:val Loss: 2.5172411392295295
+DEBUG:root:val Accuracy: 18.87
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 3 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.9850939779889349
+DEBUG:root:train Accuracy: 63.2
+DEBUG:root:val Loss: 1.6975800108388472
+DEBUG:root:val Accuracy: 29.16
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 4 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.8963932824290656
+DEBUG:root:train Accuracy: 56.78
+DEBUG:root:val Loss: 1.8789632105436482
+DEBUG:root:val Accuracy: 32.93
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 5 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.8313768294122484
+DEBUG:root:train Accuracy: 61.77
+DEBUG:root:val Loss: 1.8141454318182064
+DEBUG:root:val Accuracy: 30.02
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 6 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.7666887488630083
+DEBUG:root:train Accuracy: 57.13
+DEBUG:root:val Loss: 3.16723153630241
+DEBUG:root:val Accuracy: 17.84
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 7 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.7270238526701148
+DEBUG:root:train Accuracy: 66.04
+DEBUG:root:val Loss: 1.930766883769322
+DEBUG:root:val Accuracy: 34.82
+DEBUG:root:--------------
+DEBUG:root:
+DEBUG:root:Epoch 8 / 45
+DEBUG:root:--------------
+DEBUG:root:train Loss: 0.6777876353731342
