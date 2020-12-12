@@ -19,9 +19,9 @@ This is essentially augmenting the data.
 """
 class PreProcessingPipeline:
     def __init__(self):
-        self.input_dir = '/ifs/loni/faculty/jpa/Ashwin/Meningioma/MRI/original'
-        self.output_dir = '/ifs/loni/faculty/jpa/Ashwin/Meningioma/MRI/slices'
-        self.labels_dir = '/ifs/loni/faculty/jpa/Ashwin/DataScience/Projects/Meningioma/labels'
+        self.input_dir = './Meningioma/MRI/original'
+        self.output_dir = './Meningioma/MRI/slices'
+        self.labels_dir = './Meningioma/labels'
         self.sequences = ['adc.nii.gz', 'flair.nii.gz', 't1.nii.gz', 't1c.nii.gz', 't2.nii.gz']
         self.lesion_mask = 'lesion.nii.gz'
 
