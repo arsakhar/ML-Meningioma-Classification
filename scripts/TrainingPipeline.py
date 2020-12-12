@@ -37,13 +37,13 @@ class TrainingPipeline:
         # Filter (include) observations containing targets
         target_cols = self.targets
         data_df = data_df.loc[(data_df[target_cols] != 0).any(axis=1)]
-        data_df = data_df.reset_index(drop=True)
 
         # Filter (include) only one type of sequence for each subject (will load all during training)
         max_slices = [data_df[data_df['id'].str.contains(sequence)].shape[0] for sequence in params.sequences]
         max_slices = np.asarray(max_slices)
         max_index = np.argmax(max_slices)
         data_df = data_df[data_df['id'].str.contains(params.sequences[max_index])]
+        data_df = data_df.reset_index(drop=True)
 
         # Set weights for loss function for imbalanced data
         pos_weights = self.get_class_weights(data_df, target_cols)
@@ -51,7 +51,7 @@ class TrainingPipeline:
         logging.debug("Loss Function Weights: " + ' '.join(map(str, pos_weights)))
 
         # Set loss criterion (cross entropy for classification where classes > 2)
-        criterion = nn.BCELoss(weight=pos_weights)
+        criterion = nn.CrossEntropyLoss(weight=pos_weights)
 
         # 5-fold cross-validation split by group and stratified by class imbalance
         stratified_group_kfold = StratifiedGroupKFold(n_splits=5)
@@ -263,11 +263,12 @@ class TrainingPipeline:
 
         params = SimpleNamespace(**params)
 
-        # params.learning_rate = 9.54864588381312e-06
-        # params.dropout = 0.176301655747873
+        # Force set parameters
+        # params.learning_rate = .01
+        # params.dropout = 0.15
         # params.batch_size = 16
-        # params.optimizer = "RMSprop"
-        # params.l2_reg = 0.000101016739945895
+        # params.optimizer = "SGD"
+        # params.l2_reg = 0.0001
 
         logging.debug("")
         logging.debug("Hyperparameters: ")

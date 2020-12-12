@@ -47,6 +47,7 @@ class CNNTrainer(Dataset):
                     # get data to cuda if possible
                     data = data.to(device=self.cuda_device, dtype=torch.float)
 
+                    print('A')
                     # get labels to cuda if possible
                     targets = targets.to(device=self.cuda_device)
 

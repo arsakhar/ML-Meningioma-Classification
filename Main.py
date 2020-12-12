@@ -22,7 +22,7 @@ if __name__ == '__main__':
     """
     Let's train!
     """
-    trainingPipeline = TrainingPipeline(targets=['0', '3'])
+    trainingPipeline = TrainingPipeline(targets=['0', '1', '2', '3'])
 
     study = optuna.create_study(direction="maximize")
     study.optimize(trainingPipeline.objective, n_trials=100)
@@ -32,6 +32,7 @@ if __name__ == '__main__':
     print(trial_.params)
 
     trainingPipeline.Run(trial_.params)
+
 
 
 

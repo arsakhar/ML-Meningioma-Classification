@@ -120,8 +120,7 @@ class CustomDataSet(Dataset):
                 tio.RandomNoise(p=0.5),  # Gaussian noise 50% of times
                 tio.OneOf(
                     {  # either
-                        tio.RandomAffine(): 0.75,  # random affine
-                        tio.RandomElasticDeformation(): 0.25,  # or random elastic deformation
+                        tio.RandomAffine(): 1.0,  # random affine
                     }, p=0.8),  # applied to 80% of images
             ])
 
