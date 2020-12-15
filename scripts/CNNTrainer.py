@@ -14,14 +14,14 @@ class CNNTrainer(Dataset):
     def __init__(self):
         self.models_dir = './models'
         self.runs_dir = './runs'
-        self.cuda_device = torch.device("cuda:2")
+        self.cuda_device = torch.device("cuda:0")
 
     def train_network(self, train_loader, val_loader, params, model, criterion, optimizer, labels):
         if torch.cuda.device_count() > 1:
             logging.debug("Using Parallel CUDA GPUs")
             logging.debug("")
 
-            model = nn.DataParallel(model, device_ids=[2, 3, 6])
+            model = nn.DataParallel(model, device_ids=[0,6,7])
 
         model.to(self.cuda_device)
         criterion.to(self.cuda_device)
@@ -47,7 +47,6 @@ class CNNTrainer(Dataset):
                     # get data to cuda if possible
                     data = data.to(device=self.cuda_device, dtype=torch.float)
 
-                    print('A')
                     # get labels to cuda if possible
                     targets = targets.to(device=self.cuda_device)
 

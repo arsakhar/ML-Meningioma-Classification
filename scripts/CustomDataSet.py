@@ -102,9 +102,7 @@ class CustomDataSet(Dataset):
         return img, label
 
     """
-    Returns the pytorch transform. The key transform is ToTensor() as the images 
-    (type ndarrays) need to be converted to tensors before they can be input into 
-    the model for training. We'll also standardize the dataframe to mean 0 and stdev of 1
+    Returns the pytorch transform. We'll also standardize the dataframe to mean 0 and stdev of 1
     ================== ===========================================================================
     **Arguments:**
     data_df            labels dataframe
@@ -118,10 +116,10 @@ class CustomDataSet(Dataset):
             _transforms = tio.Compose([
                 tio.ZNormalization(masking_method=self.get_foreground),
                 tio.RandomNoise(p=0.5),  # Gaussian noise 50% of times
-                tio.OneOf(
-                    {  # either
-                        tio.RandomAffine(): 1.0,  # random affine
-                    }, p=0.8),  # applied to 80% of images
+                tio.OneOf({  # either
+                    tio.RandomAffine(): 0.75,  # random affine
+                    tio.RandomElasticDeformation(): 0.25,  # or random elastic deformation
+                }, p=0.8),  # applied to 80% of images
             ])
 
             # _transforms = tio.Compose([

@@ -84,7 +84,7 @@ class TrainingPipeline:
                                           padding=(3, 3),
                                           bias=False)
 
-            # Modify ResNet model to include regularization:
+            # Modify ResNet model to include dropout:
             model.fc = nn.Sequential(
                 nn.Dropout(params.dropout),  # Add dropout to avoid overfitting during training
                 nn.Linear(model.fc.in_features, params.num_classes)  # Set # of classes (default - 1000)
@@ -258,7 +258,7 @@ class TrainingPipeline:
                   'optimizer': trial.suggest_categorical("optimizer", ["Adam", "RMSprop", "SGD"]),
                   'learning_rate': trial.suggest_loguniform("learning_rate", 1e-6, 1e-1),
                   'dropout': trial.suggest_uniform("dropout", 0.1, 0.7),
-                  'batch_size': trial.suggest_categorical("batch_size", [16, 32, 64, 128]),
+                  'batch_size': trial.suggest_categorical("batch_size", [16, 32]),
                   'l2_reg': trial.suggest_loguniform('weight_decay', 1e-10, 1e-3)}
 
         params = SimpleNamespace(**params)
